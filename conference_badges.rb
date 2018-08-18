@@ -6,7 +6,6 @@ def batch_badge_creator(attendees)
   badges = attendees.each do 
     badge_maker(name)
   end
-  badges
 end
 
 def assign_rooms(attendees)
